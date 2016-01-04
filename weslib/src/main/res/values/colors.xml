@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#44af16</color>
+	<color name="colorPrimaryDark">#438626</color>
+	<color name="colorAccent">#FF4081</color>
+
+	<color name="transparent">#00000000</color>
+	<color name="red">#e60012</color>
+	<color name="red_hover">#c60012</color>
+	<color name="blue">#00a0e9</color>
+	<color name="blue_hover">#0090d9</color>
+	<color name="facebook">#5D77B5</color>
+	<color name="facebook_hover">#4D67C5</color>
+	<color name="black">#000000</color>
+	<color name="white">#ffffff</color>
+	<color name="light_white">#dddddd</color>
+	<color name="trans_black">#55000000</color>
+	<color name="grey95">#f4f4f4</color>
+	<color name="grey93">#eeeeee</color>
+	<color name="grey80">#cccccc</color>
+	<color name="grey50">#888888</color>
+	<color name="grey25">#444444</color>
+	<color name="dark">#535353</color>
+	<color name="darker">#232323</color>
+	<color name="gray">#b2b2b2</color>
+	<color name="main_bar">#f5f5f5</color>
+	<color name="main_bar_hover">#dddddd</color>
+	<color name="yellow">#ffff00</color>
+	<color name="sky">#94cbf1</color>
+	<color name="sky_dark">#79b3db</color>
+	<color name="sky_light">#a9d5f4</color>
+	<color name="violet">#c892f0</color> <!-- 票卡  -->
+	<color name="violet_dark">#b07ad9</color>
+	<color name="violet_light">#d3a8f3</color>
+	<color name="grass">#9ad97f</color>
+	<color name="grass_dark">#82c366</color>
+	<color name="grass_light">#82c366</color> <!-- coupon = grass -->
+	<color name="pink">#f89dc6</color>
+	<color name="pink_dark">#df81ab</color>
+	<color name="pink_light">#f9b1d1</color>
+	<color name="orange">#f0b593</color>
+	<color name="orange_light">#f3c4a9</color>
+	<color name="aoi">#00aeef</color>
+	<color name="purple">#9a9ff1</color>
+	<color name="purple_light">#aeb2f4</color>
+</resources>
