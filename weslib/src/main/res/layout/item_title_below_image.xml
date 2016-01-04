@@ -2,26 +2,29 @@
 <RelativeLayout
 	xmlns:card_view="http://schemas.android.com/apk/res-auto"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+id/card_view"
-	card_view:cardBackgroundColor="#ddffdd"
-	card_view:cardElevation="10dp"
 	android:layout_gravity="center"
 	android:layout_width="match_parent"
-	android:layout_height="100dp"
-	card_view:cardCornerRadius="80dp">
+	android:layout_height="wrap_content">
 	<ImageView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+		android:paddingTop="8dp"
+		android:paddingRight="8dp"
+		android:paddingLeft="8dp"
+		android:adjustViewBounds="true"
 		android:scaleType="fitXY"
-		android:src="@drawable/image_holder"
-		android:layout_above="@+id/tvCardViewTitle"/>
+		android:src="@drawable/purple_holder"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:id="@+id/imageView"/>
 	<TextView
 		android:id="@+id/tvCardViewTitle"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="8dp"
 		android:background="#ffffff"
+		android:layout_below="@+id/imageView"
 		android:layout_alignParentLeft="true"
-		android:layout_alignParentStart="true"
-		android:layout_alignParentBottom="true"/>
+		android:layout_alignParentStart="true"/>
 </RelativeLayout>

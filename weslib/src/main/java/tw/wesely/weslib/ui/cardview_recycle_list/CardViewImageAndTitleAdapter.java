@@ -19,6 +19,7 @@ public class CardViewImageAndTitleAdapter extends RecyclerView.Adapter<CardViewI
 	private String[] mDataset;
 	private Context ctx;
 	private ViewGroup parent;
+	private boolean animate = true;
 
 	// Provide a reference to the views for each data item
 	// Complex data items may need more than one view per item, and

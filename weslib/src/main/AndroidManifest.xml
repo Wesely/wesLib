@@ -15,6 +15,19 @@
 			android:label="@string/demo_scrollView_fab"
 			android:theme="@style/AppTheme.NoActionBar">
 		</activity>
+		<activity
+			android:name=".ui.cardview_recycle_list.RecycleCardViewDoubleColumnActivity"
+			android:label="@string/demo_scrollView_fab">
+		</activity>
+		<activity
+			android:name=".ui.cardview_recycle_list.RecycleCardViewStaggeredGridActivity"
+			android:label="@string/demo_scrollView_fab">
+		</activity>
+		<activity
+			android:name=".ui.cardview_recycle_list.AnimGridViewActivity"
+			android:label="@string/title_activity_anim_grid_view"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
 	</application>
 
 </manifest>

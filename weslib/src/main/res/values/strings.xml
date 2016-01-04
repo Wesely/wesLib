@@ -9,6 +9,12 @@
 	<string name="detail_scrollView_fab">ScrollView contains:\n
 		- Floating Action Button with SnackBar\n
 		- long Text content.</string>
+	<string name="demo_recycler_grid">Recycler + GridView</string>
+	<string name="detail_recycler_grid">Using GridView as the content</string>
+	<string name="demo_recycler_staggered_grid">Recycler + Staggered Grid</string>
+	<string name="detail_recycler_staggered_grid">By using StaggeredGridLayoutManager, the Recycler has flow effect. </string>
+	<string name="demo_anim_grid_view">AnimGridViewActivity</string>
+	<string name="detail_anim_grid_view">testing</string>
 
 
 	<string name="large_text">
@@ -100,4 +106,5 @@
 		"when a user tries to pick up one of cards.\n\n"
 	</string>
 	<string name="action_settings">Settings</string>
+	<string name="title_activity_anim_grid_view">Animated GridView</string>
 </resources>
