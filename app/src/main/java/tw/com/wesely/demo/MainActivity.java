@@ -19,8 +19,11 @@ import android.view.View;
 
 import java.util.ArrayList;
 
+import tw.wesely.weslib.ui.cardview_recycle_list.AnimGridViewActivity;
 import tw.wesely.weslib.ui.cardview_recycle_list.CardViewTitleAndTextAdapter;
+import tw.wesely.weslib.ui.cardview_recycle_list.RecycleCardViewDoubleColumnActivity;
 import tw.wesely.weslib.ui.cardview_recycle_list.RecycleCardViewSingleColumnActivity;
+import tw.wesely.weslib.ui.cardview_recycle_list.RecycleCardViewStaggeredGridActivity;
 import tw.wesely.weslib.ui.scrollview_fab.ScrollingActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -81,12 +84,23 @@ public class MainActivity extends AppCompatActivity
 	private void setContent() {
 		titles.add(getString(R.string.demo_cardView_recycler));
 		texts.add(getString(R.string.detail_cardView_recycler));
-		texts.add(getString(R.string.detail_cardView_recycler));
 		intents.add(new Intent(getApplicationContext(),RecycleCardViewSingleColumnActivity.class));
 
 		titles.add(getString(R.string.demo_scrollView_fab));
 		texts.add(getString(R.string.detail_scrollView_fab));
 		intents.add(new Intent(getApplicationContext(),ScrollingActivity.class));
+
+		titles.add(getString(R.string.demo_recycler_grid));
+		texts.add(getString(R.string.detail_recycler_grid));
+		intents.add(new Intent(getApplicationContext(),RecycleCardViewDoubleColumnActivity.class));
+
+		titles.add(getString(R.string.demo_recycler_staggered_grid));
+		texts.add(getString(R.string.detail_recycler_staggered_grid));
+		intents.add(new Intent(getApplicationContext(),RecycleCardViewStaggeredGridActivity.class));
+
+		titles.add(getString(R.string.demo_anim_grid_view));
+		texts.add(getString(R.string.detail_anim_grid_view));
+		intents.add(new Intent(getApplicationContext(),AnimGridViewActivity.class));
 	}
 
 	@Override
