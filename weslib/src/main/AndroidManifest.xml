@@ -7,7 +7,7 @@
 		android:label="@string/app_name"
 		android:supportsRtl="true">
 		<activity
-			android:name=".ui.cardview_recycle_list.RecycleCardViewSingleColumnActivity"
+			android:name=".ui.recycler_view.RecycleCardViewSingleColumnActivity"
 			android:label="@string/demo_cardView_recycler">
 		</activity>
 		<activity
@@ -16,15 +16,15 @@
 			android:theme="@style/AppTheme.NoActionBar">
 		</activity>
 		<activity
-			android:name=".ui.cardview_recycle_list.RecycleCardViewDoubleColumnActivity"
+			android:name=".ui.recycler_view.RecycleCardViewDoubleColumnActivity"
 			android:label="@string/demo_scrollView_fab">
 		</activity>
 		<activity
-			android:name=".ui.cardview_recycle_list.RecycleCardViewStaggeredGridActivity"
+			android:name=".ui.recycler_view.RecycleCardViewStaggeredGridActivity"
 			android:label="@string/demo_scrollView_fab">
 		</activity>
 		<activity
-			android:name=".ui.cardview_recycle_list.AnimGridViewActivity"
+			android:name=".ui.recycler_view.AnimGridViewActivity"
 			android:label="@string/title_activity_anim_grid_view"
 			android:theme="@style/AppTheme.NoActionBar">
 		</activity>

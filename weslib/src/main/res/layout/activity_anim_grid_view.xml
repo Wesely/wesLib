@@ -24,9 +24,9 @@
 	android:layout_height="match_parent"
 	android:fitsSystemWindows="true"
 	android:orientation="vertical"
-	tools:context=".ui.cardview_recycle_list.AnimGridViewActivity">
+	tools:context=".ui.recycler_view.AnimGridViewActivity">
 
-	<tw.wesely.weslib.ui.cardview_recycle_list.AnimatedGridRecyclerView
+	<tw.wesely.weslib.ui.recycler_view.AnimatedGridRecyclerView
 		android:id="@+id/recycler"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
